@@ -120,6 +120,7 @@ USE_TZ = False
 
 STATIC_URL = '/static/'
 
+# heroku
 import dj_database_url
 DATABASES['default'] = dj_database_url.config()
 
